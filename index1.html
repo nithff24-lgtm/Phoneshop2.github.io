@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Shop📲 </title>
+    <style>
+        body{
+            background-color: rgb(255, 255, 255);
+            font-family: Cataneo BT, sans-serif;
+            font-size: 18px;
+            color: rgb(0, 0, 0);
+        }
+        .nav{
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            background-color: rgb(204, 204, 255);
+            padding: 10px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            margin: 20px;
+            height: 50px;
+            align-items: center;
+        }
+        .nav a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+            font-family: Cataneo BT, sans-serif;
+            font-weight: bold;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+            }
+
+        .card {
+            background: white;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+            overflow: hidden;
+            text-align: left;
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card-content {
+            padding: 15px;
+        }
+        .card-content h3 {
+            margin: 0;
+            font-size: 18px;
+            color: #333;
+            text-align: center;
+        }
+        .card-content p {
+            margin: 8px 0 0;
+            font-size: 14px;
+            color: #333;
+            text-align: center;
+            border: #333 solid 1px;
+            border-radius: 5px;
+            padding: 5px;
+            background-color: rgb(204, 204, 255);
+            font-weight: bold;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            width: 80px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .footer {
+            margin: 30px 0;
+            font-size: 16px;
+        }
+        .footer a {
+            color: blue;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .card-content a {
+            text-decoration: none;
+            color: #333;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="nav">
+            <a href="">Home</a>
+            <a href="">Contact Me</a>
+            <a href="">About Me</a>
+            <a href="">Services</a>
+            <a href="">Products</a>
+        </div>
+        <div class="container">
+            <!-- Student 1 -->
+            <div class="card">
+                <img src="https://dlcdnwebimgs.asus.com/files/media/5c70957a-1479-4727-a0d0-1a860746f2f4/v5/img/rcd-audio-1280.jpg" alt="Student 1">
+                <div class="card-content">
+                    <h3>ID: 001 - ASUS ROG STRIX G17</h3>
+                    <h3 style="margin: 8px 0 0; font-size: 14px; color: #ffffff;text-align: center;border: #ffffff solid 1px ;border-radius: 5px; padding: 5px; background-color: rgb(255, 0, 0); font-weight: bold; box-shadow: 2px 2px 5px rgba(23, 1, 1, 0.1); width: 80px; margin-left: auto; margin-right: auto;">999$</h3>
+                    <p><a href="">BUY NOW</a></p>
+                </div>
+            </div>
+            <!-- Student 2 -->
+            <div class="card">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_836785-MLA84181689720_052025-O.webp" alt="Student 2">
+                <div class="card-content">
+                    <h3>ID: 002 - ASUS ROG STRIX G17</h3>
+                    <h3 style="margin: 8px 0 0; font-size: 14px; color: #ffffff;text-align: center;border: #ffffff solid 1px ;border-radius: 5px; padding: 5px; background-color: rgb(255, 0, 0); font-weight: bold; box-shadow: 2px 2px 5px rgba(23, 1, 1, 0.1); width: 80px; margin-left: auto; margin-right: auto;">1199$</h3>
+                    <p><a href="">BUY NOW</a></p>
+                </div>
+            </div>
+            <!-- Student 3 -->
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjCTyfQncQrUhWtEwuns9JhumxpaqIigetRHqjBsaiIW-HwoP8G8bwIkvhNUPQYCOaUhg&usqp=CAU" alt="Student 3">
+                <div class="card-content">
+                    <h3>ID: 003 - ASUS ROG STRIX G16</h3>
+                    <h3 style="margin: 8px 0 0; font-size: 14px; color: #ffffff;text-align: center;border: #ffffff solid 1px ;border-radius: 5px; padding: 5px; background-color: rgb(255, 0, 0); font-weight: bold; box-shadow: 2px 2px 5px rgba(23, 1, 1, 0.1); width: 80px; margin-left: auto; margin-right: auto;">1000$</h3>
+                    <p><a href="">BUY NOW</a></p>
+                </div>
+            </div>
+            <!-- Student 4 -->
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPVx0or6NKNF_7irgg1S8wnELtSRi10yvHJtiW2o4l3lpGeLubcb-g8FneeRk1IllJL4M&usqp=CAU" alt="Student 4">
+                <div class="card-content">
+                    <h3>ID: 004 - ASUS ROG STRIX G17</h3>
+                    <h3 style="margin: 8px 0 0; font-size: 14px; color: #ffffff;text-align: center;border: #ffffff solid 1px ;border-radius: 5px; padding: 5px; background-color: rgb(255, 0, 0); font-weight: bold; box-shadow: 2px 2px 5px rgba(23, 1, 1, 0.1); width: 80px; margin-left: auto; margin-right: auto;">1000$</h3>
+                    <p><a href="">BUY NOW</a></p>
+                </div>
+            </div>
+            <!-- Student 5 -->
+            <div class="card">
+                <img src="https://thvnext.bing.com/th?q=Asus%20ROG%20Strix%20G18%20RTX%205090&pid=ImgDet&w=150&h=150&c=1&p=1&rs=1&t=1&mkt=en-ww&adlt=strict&o=7&rm=3" alt="Student 5">
+                <div class="card-content">
+                    <h3>ID: 005 - ASUS ROG STRIX G18</h3>
+                    <h3 style="margin: 8px 0 0; font-size: 14px; color: #ffffff;text-align: center;border: #ffffff solid 1px ;border-radius: 5px; padding: 5px; background-color: rgb(255, 0, 0); font-weight: bold; box-shadow: 2px 2px 5px rgba(23, 1, 1, 0.1); width: 80px; margin-left: auto; margin-right: auto;">1000$</h3>
+                    <p><a href="">BUY NOW</a></p>
+                </div>
+            </div>
+            <!-- Student 6 -->
+            <div class="card">
+                <img src="https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/101/MTA-154946305/asus_asus_rog_strix_g18_g814jir_i9-14900hx_32gb_1tb_rtx_4070_8gb_2-5k_240hz_full11_lk06raiq.jpg" alt="Student 6">
+                <div class="card-content">
+                    <h3>ID: 006 - ASUS ROG STRIX G18</h3>
+                    <h3 style="margin: 8px 0 0; font-size: 14px; color: #ffffff;text-align: center;border: #ffffff solid 1px ;border-radius: 5px; padding: 5px; background-color: rgb(255, 0, 0); font-weight: bold; box-shadow: 2px 2px 5px rgba(23, 1, 1, 0.1); width: 80px; margin-left: auto; margin-right: auto;">1000$</h3>
+                    <p><a href="">BUY NOW</a></p>
+                </div>
+            </div>
+            <!-- Student 7 -->
+            <div class="card">
+                <img src="https://ankjit.com.np/wp-content/uploads/2023/01/iPhone-12-Pro-Max-Design-1024x569.webp" alt="Student 6">
+                <div class="card-content">
+                    <h3>ID: 007 - IPHONE 12 PROMIX</h3>
+                    <h3 style="margin: 8px 0 0; font-size: 14px; color: #ffffff;text-align: center;border: #ffffff solid 1px ;border-radius: 5px; padding: 5px; background-color: rgb(255, 0, 0); font-weight: bold; box-shadow: 2px 2px 5px rgba(23, 1, 1, 0.1); width: 80px; margin-left: auto; margin-right: auto;">1000$</h3>
+                    <p><a href="https://www.bing.com/images/search?view=detailV2&ccid=XY2SkWmG&id=2B9B4DE5DABE9B64252D4D55A8BA27FCDC7286EF&thid=OIP.XY2SkWmGOZKalsu9VwpttQHaEo&mediaurl=https%3A%2F%2Fhalomobile.vn%2Fwp-content%2Fuploads%2F2020%2F10%2F12-pro-max-mau-xanh-nauy-halo-mobile.jpg&cdnurl=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FR.5d8d9291698639929a96cbbd570a6db5%3Frik%3D74Zy3PwnuqhVTQ%26pid%3DImgRaw%26r%3D0&exph=1280&expw=2048&q=iphone+12+pro+max&FORM=IRPRST&ck=177BDAFC2D9E3322400314D565621502&selectedIndex=16&itb=0&cw=850&ch=658&ajaxhist=0&ajaxserp=0">BUY NOW</a></p>
+                </div>
+            </div>
+            <!-- Student 8 -->
+            <div class="card">
+                <img src="https://i.ss.lv/gallery/7/1277/319181/mobile-phones-apple-iphone-13-pro-max-63836086.800.jpg" alt="Student 6">
+                <div class="card-content">
+                    <h3>ID: 008 - IPHONE 13 PROMAX</h3>
+                    <h3 style="margin: 8px 0 0; font-size: 14px; color: #ffffff;text-align: center;border: #ffffff solid 1px ;border-radius: 5px; padding: 5px; background-color: rgb(255, 0, 0); font-weight: bold; box-shadow: 2px 2px 5px rgba(23, 1, 1, 0.1); width: 80px; margin-left: auto; margin-right: auto;">1200$</h3>
+                    <p><a href="https://www.bing.com/images/search?view=detailV2&ccid=zDOM7oUE&id=268568898CB539476E57E59EBB5017916CC7E219&thid=OIP.zDOM7oUEBi1t8dOsdNvgRwHaFj&mediaurl=https%3A%2F%2Fi.ss.lv%2Fgallery%2F7%2F1277%2F319181%2Fmobile-phones-apple-iphone-13-pro-max-63836086.800.jpg&cdnurl=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FR.cc338cee8504062d6df1d3ac74dbe047%3Frik%3DGeLHbJEXULue5Q%26pid%3DImgRaw%26r%3D0&exph=682&expw=910&q=iphone+13+pro+max&FORM=IRPRST&ck=AB1B27B0A863A1F78011970E2F614BCC&selectedIndex=27&itb=0&cw=850&ch=658&ajaxhist=0&ajaxserp=0">BUY NOW</a></p>
+                </div>
+            </div>
+            <!-- Student 9 -->
+            <div class="card">
+                <img src="https://th.bing.com/th/id/R.e1c94ebd6a2c3de9d1515564664d595e?rik=J4wXH3s7%2fyiA2Q&pid=ImgRaw&r=0" alt="Student 6">
+                <div class="card-content">
+                    <h3>ID: 009 - IPHONE 14 PROMAX</h3>
+                    <h3 style="margin: 8px 0 0; font-size: 14px; color: #ffffff;text-align: center;border: #ffffff solid 1px ;border-radius: 5px; padding: 5px; background-color: rgb(255, 0, 0); font-weight: bold; box-shadow: 2px 2px 5px rgba(23, 1, 1, 0.1); width: 80px; margin-left: auto; margin-right: auto;">1300$</h3>
+                    <p><a href="https://www.bing.com/images/search?view=detailV2&ccid=4clOvWos&id=5340E263250CDA1DA92BD98028FF3B7B1F178C27&thid=OIP.4clOvWosPenRUVVkZk1ZXgHaEK&mediaurl=https%3A%2F%2Fwww.apple.com%2Fnewsroom%2Fimages%2Fproduct%2Fiphone%2Fstandard%2FApple-iPhone-14-Pro-iPhone-14-Pro-Max-hero-220907_Full-Bleed-Image.jpg.large.jpg&cdnurl=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FR.e1c94ebd6a2c3de9d1515564664d595e%3Frik%3DJ4wXH3s7%252fyiA2Q%26pid%3DImgRaw%26r%3D0&exph=810&expw=1440&q=iphone+14+pro+max&FORM=IRPRST&ck=1EB5E1C80B9EFBA00A534F9F262B2E67&selectedIndex=7&itb=0&cw=850&ch=658&ajaxhist=0&ajaxserp=0">BUY NOW</a></p>
+                </div>
+            </div>
+            <!-- Student 10 -->
+            <div class="card">
+                <img src="https://www.apple.com/newsroom/images/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/article/Apple-iPhone-15-Pro-lineup-hero-230912_Full-Bleed-Image.jpg.large.jpg" alt="Student 6">
+                <div class="card-content">
+                    <h3>ID: 010 - IPHONE 15 PROMAX</h3>
+                    <h3 style="margin: 8px 0 0; font-size: 14px; color: #ffffff;text-align: center;border: #ffffff solid 1px ;border-radius: 5px; padding: 5px; background-color: rgb(255, 0, 0); font-weight: bold; box-shadow: 2px 2px 5px rgba(23, 1, 1, 0.1); width: 80px; margin-left: auto; margin-right: auto;">1400$</h3>
+                    <p><a href="https://www.bing.com/images/search?view=detailV2&ccid=sJLFhaJC&id=38CC3E300D721C28438BB05B1A4CBD30E0ECAD13&thid=OIP.sJLFhaJCytrOCaKlElT12QHaEK&mediaurl=https%3A%2F%2Fwww.apple.com%2Fnewsroom%2Fimages%2F2023%2F09%2Fapple-unveils-iphone-15-pro-and-iphone-15-pro-max%2Farticle%2FApple-iPhone-15-Pro-lineup-hero-230912_Full-Bleed-Image.jpg.large.jpg&cdnurl=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FR.b092c585a242cadace09a2a51254f5d9%3Frik%3DE63s4DC9TBpbsA%26pid%3DImgRaw%26r%3D0&exph=810&expw=1440&q=iphone+15+pro+max&FORM=IRPRST&ck=D8839453055226229E0B4BFC13882937&selectedIndex=2&itb=0&cw=850&ch=658&ajaxhist=0&ajaxserp=0">BUY NOW</a></p>
+                </div>
+            </div>
+            <!-- Student 11 -->
+            <div class="card">
+                <img src="https://divplanet.com/blog/wp-content/uploads/2024/10/iphone-16-pro-max.jpg" alt="Student 6">
+                <div class="card-content">
+                    <h3>ID: 011 - IPHONE 16 PROMAX</h3>
+                    <h3 style="margin: 8px 0 0; font-size: 14px; color: #ffffff;text-align: center;border: #ffffff solid 1px ;border-radius: 5px; padding: 5px; background-color: rgb(255, 0, 0); font-weight: bold; box-shadow: 2px 2px 5px rgba(23, 1, 1, 0.1); width: 80px; margin-left: auto; margin-right: auto;">1500$</h3>
+                    <p><a href="https://www.bing.com/images/search?view=detailV2&ccid=KZ4pROeL&id=16E7289017D2B189A2DF950FD2411EF07E3B3081&thid=OIP.KZ4pROeL60WFfvjRHB7QlgHaEK&mediaurl=https%3A%2F%2Fdivplanet.com%2Fblog%2Fwp-content%2Fuploads%2F2024%2F10%2Fiphone-16-pro-max.jpg&cdnurl=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FR.299e2944e78beb45857ef8d11c1ed096%3Frik%3DgTA7fvAeQdIPlQ%26pid%3DImgRaw%26r%3D0&exph=720&expw=1280&q=iphone+16+pro+max&FORM=IRPRST&ck=213F56EB84FF410FDF27727475A244E2&selectedIndex=6&itb=0&cw=850&ch=658&ajaxhist=0&ajaxserp=0">BUY NOW</a></p>
+                </div>
+            </div>
+            <!-- Student 12 -->
+            <div class="card">
+                <img src="https://cdn.mos.cms.futurecdn.net/KSuvYj52VYXvd47h79UUTJ.jpg" alt="Student 6">
+                <div class="card-content">
+                    <h3>ID: 012 - IPHONE 17 PROMAX</h3>
+                    <h3 style="margin: 8px 0 0; font-size: 14px; color: #ffffff;text-align: center;border: #ffffff solid 1px ;border-radius: 5px; padding: 5px; background-color: rgb(255, 0, 0); font-weight: bold; box-shadow: 2px 2px 5px rgba(23, 1, 1, 0.1); width: 80px; margin-left: auto; margin-right: auto;">1600$</h3>
+                    <p><a href="https://www.bing.com/images/search?view=detailV2&ccid=9VECdmn7&id=9CE1264368F56574B2E9DE645D5705463C43A68B&thid=OIP.9VECdmn7Dw3CTBMta32FRwHaEK&mediaurl=https%3A%2F%2Fcdn.mos.cms.futurecdn.net%2FKSuvYj52VYXvd47h79UUTJ.jpg&cdnurl=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FR.f551027669fb0f0dc24c132d6b7d8547%3Frik%3Di6ZDPEYFV11k3g%26pid%3DImgRaw%26r%3D0&exph=1080&expw=1920&q=iphone+17+pro+max&FORM=IRPRST&ck=0D917217C232E49E3212A406B97746AA&selectedIndex=21&itb=0&cw=1721&ch=859&ajaxhist=0&ajaxserp=0">BUY NOW</a></p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
